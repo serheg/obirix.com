@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow:
+Sitemap: http://obirix.com/sitemap.xml
+Sitemap: http://obirix.com/sitemap-store.xml
+Sitemap: http://obirix.com/sitemap-feeds.xml
+Host: obirix.com
