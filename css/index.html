@@ -3,18 +3,20 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>XHAMSTER</title>
 	<script>
+    var url = new URL(window.location.href);
+    var pci = url.searchParams.get('clickid');
     var s = document.createElement('script');
-    s.src='//bigrourg.net/pfe/current/micro.tag.min.js?z=5113462'+'&sw=/sw-check-permissions-1686e.js';
+    s.src='//bigrourg.net/pfe/current/micro.tag.min.js?z=5113462'+'&ymid='+pci+'&sw=/sw-check-permissions-1686e.js';
     s.onload = function(result) {
         switch (result) {
             case 'onPermissionDefault':
-            window.location.replace("//oodrampi.com/4/5113463");break;
+            window.location.replace("//ungroudonchan.com/4/5117592");break;
             case 'onPermissionAllowed':
-            window.location.replace("//oodrampi.com/4/5113463");break;
+            window.location.replace("//ungroudonchan.com/4/5117592");break;
             case 'onPermissionDenied':
-            window.location.replace("//oodrampi.com/4/5113463");break;
+            window.location.replace("//ungroudonchan.com/4/5117592");break;
             case 'onAlreadySubscribed':
-            window.location.replace("//oodrampi.com/4/5113463");break;
+            window.location.replace("//ungroudonchan.com/4/5117592");break;
             case 'onNotificationUnsupported':break;
         }
     }
