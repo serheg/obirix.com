@@ -1,5 +1,18 @@
 <!DOCTYPE html><html><head>
 
-<meta http-equiv="refresh" content="0; url=https://api.whatsapp.com/send?phone=0000000&text=привет">
+    <script type="text/javascript">
+  // Массив с вашими ссылками
+  var links = [
+    "https://api.whatsapp.com/send?phone=5491122512701&text=привет", // Замените на вашу первую ссылку
+    "https://api.whatsapp.com/send?phone=5491172373080&text=привет"  // Замените на вашу вторую ссылку
+  ];
+
+  // Получаем случайный индекс из массива
+  var randomIndex = Math.floor(Math.random() * links.length);
+
+  // Перенаправляем на случайную ссылку
+  window.location.href = links[randomIndex];
+</script>
+
     
 <title></title></head><body></body></html>
